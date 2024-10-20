@@ -94,8 +94,6 @@ def format_reference(ref):
     
     return ref_str
 
-# Main loop to show random verse, and ask for reference. If incorrect show the reference as a hint. When correct show Job 38:11 with the reference, and continue loop.
-
 # Print Verse Reference and Verse Text, and collect data
 for verse_id in verse_ids:
     verse_text = bible.get_verse_text(verse_id)
